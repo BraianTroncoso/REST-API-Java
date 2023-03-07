@@ -13,7 +13,19 @@ public class Task{
     private String tittle;
 
     @Column
+    private String subtittle;
+
+    @Column
     private String description;
+
+
+    public String getSubtittle() {
+        return subtittle;
+    }
+
+    public void setSubtittle(String subtittle) {
+        this.subtittle = subtittle;
+    }
 
     public long getId() {
         return id;
