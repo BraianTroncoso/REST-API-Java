@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rest" target="17" />
+      <module name="rest" target="11" />
       <module name="REST-API-Java" target="17" />
     </bytecodeTargetLevel>
   </component>
